@@ -1,4 +1,4 @@
-# Salvar Imaggem via HTTP/HTTPS
+# Salvar Imagem via HTTP/HTTPS
 Captura imagens de site e carrega em um TImage
 
 Link do Post que explica o Exemplo em Lazarus
