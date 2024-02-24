@@ -95,10 +95,4 @@ object FrmImagemWeb: TFrmImagemWeb
     ParentFont = False
     OnClick = LblSiteClick
   end
-  object Image1: TImage
-    Left = 209
-    Height = 90
-    Top = 176
-    Width = 90
-  end
 end

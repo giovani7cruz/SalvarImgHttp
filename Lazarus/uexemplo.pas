@@ -11,7 +11,8 @@ unit uExemplo;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls,
+  ActnList;
 
 type
 
@@ -21,7 +22,6 @@ type
     BtnColetarImagem: TButton;
     CheckStretch: TCheckBox;
     EdtLink: TEdit;
-    Image1: TImage;
     ImgImagemColetada: TImage;
     Label1: TLabel;
     Label2: TLabel;
@@ -72,7 +72,8 @@ begin
         PnlImagem.Caption:= '';
       end
       else
-        ShowMessage('Erro ao baixar a imagem: ' + IntToStr(HttpClient.ResponseStatusCode));
+        ShowMessage('Erro ao baixar a imagem: ' +
+         IntToStr(HttpClient.ResponseStatusCode));
     except
       on E: Exception do
         ShowMessage('Erro ao baixar a imagem: ' + E.Message);
@@ -91,7 +92,8 @@ end;
 
 procedure TFrmImagemWeb.LblSiteClick(Sender: TObject);
 begin
-  ShellExecute(0, 'open', PChar(LblSite.Caption), nil, nil, SW_SHOWMAXIMIZED);
+  ShellExecute(0, 'open', PChar(LblSite.Caption), nil, nil,
+    SW_SHOWMAXIMIZED);
 end;
 
 end.
