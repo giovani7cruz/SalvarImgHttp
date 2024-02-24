@@ -1,3 +1,9 @@
+(****************************************
+
+Criado pelo Professor Giovani Da Cruz
+https://giovanidacruz.com.br
+
+****************************************)
 unit uExemplo;
 
 {$mode objfpc}{$H+}
@@ -15,6 +21,7 @@ type
     BtnColetarImagem: TButton;
     CheckStretch: TCheckBox;
     EdtLink: TEdit;
+    Image1: TImage;
     ImgImagemColetada: TImage;
     Label1: TLabel;
     Label2: TLabel;
@@ -24,6 +31,7 @@ type
     PnlImagem: TPanel;
     procedure BtnColetarImagemClick(Sender: TObject);
     procedure CheckStretchClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
     procedure LblSiteClick(Sender: TObject);
   private
 
@@ -80,6 +88,14 @@ end;
 procedure TFrmImagemWeb.CheckStretchClick(Sender: TObject);
 begin
   ImgImagemColetada.Stretch:= CheckStretch.Checked;
+end;
+
+procedure TFrmImagemWeb.FormCreate(Sender: TObject);
+
+begin
+
+
+
 end;
 
 procedure TFrmImagemWeb.LblSiteClick(Sender: TObject);

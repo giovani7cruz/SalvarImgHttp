@@ -6,6 +6,7 @@ object FrmImagemWeb: TFrmImagemWeb
   Caption = 'Coletar Imagem da Internet'
   ClientHeight = 316
   ClientWidth = 573
+  OnCreate = FormCreate
   Position = poWorkAreaCenter
   object BtnColetarImagem: TButton
     Left = 16
@@ -94,5 +95,11 @@ object FrmImagemWeb: TFrmImagemWeb
     Font.Style = [fsUnderline]
     ParentFont = False
     OnClick = LblSiteClick
+  end
+  object Image1: TImage
+    Left = 209
+    Height = 90
+    Top = 176
+    Width = 90
   end
 end

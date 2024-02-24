@@ -21,6 +21,7 @@ type
     BtnColetarImagem: TButton;
     CheckStretch: TCheckBox;
     EdtLink: TEdit;
+    Image1: TImage;
     ImgImagemColetada: TImage;
     Label1: TLabel;
     Label2: TLabel;
