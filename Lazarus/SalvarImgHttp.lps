@@ -22,8 +22,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uExemplo"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="71"/>
-        <CursorPos X="27" Y="71"/>
+        <TopLine Value="65"/>
+        <CursorPos X="62" Y="71"/>
         <UsageCount Value="33"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -33,38 +33,38 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="577"/>
         <CursorPos Y="590"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="..\..\..\Delphi\Componentes\trunk2\Fontes\ACBrSerial\ACBrWinUSBDevice.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1283"/>
         <CursorPos Y="1295"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="..\..\..\Delphi\Componentes\ACBr\trunk2\Fontes\ACBrSerial\ACBrWinUSBDevice.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="137"/>
         <CursorPos Y="1295"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win\wininc\defines.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2803"/>
         <CursorPos X="17" Y="2815"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win\wininc\ascdef.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="458"/>
         <CursorPos X="14" Y="470"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="9"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="uexemplo.pas"/>
         <Caret Line="28" TopLine="10"/>
@@ -180,6 +180,10 @@
       <Position>
         <Filename Value="uexemplo.pas"/>
         <Caret Line="66" Column="43" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="uexemplo.pas"/>
+        <Caret Line="71" Column="27" TopLine="71"/>
       </Position>
     </JumpHistory>
     <RunParams>
